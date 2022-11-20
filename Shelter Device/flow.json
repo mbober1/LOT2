@@ -1,0 +1,914 @@
+[
+    {
+        "id": "3a816ac4.7364ce",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d3dd74e140f77526",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "eu1.cloud.thethings.network",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9861a94f.eb7a28",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "eu1.cloud.thethings.network",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f83466f5.d33428",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b0ad025f.87be88",
+        "type": "ui_group",
+        "name": "Locik Device",
+        "tab": "2490620c.7d8626",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2490620c.7d8626",
+        "type": "ui_tab",
+        "name": "Mountain Emergency System",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0660a1f03e86967a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#4763d4",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#4763d4",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4763d4",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#8598e2",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4763d4",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d9097475c3f953e0",
+        "type": "ui_group",
+        "name": "logo",
+        "tab": "2490620c.7d8626",
+        "order": 5,
+        "disp": false,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "47c9df374ffba26d",
+        "type": "ui_group",
+        "name": "Localization of Locik",
+        "tab": "2490620c.7d8626",
+        "order": 4,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5d288a7189f04af7",
+        "type": "ui_group",
+        "name": "chart",
+        "tab": "2490620c.7d8626",
+        "order": 3,
+        "disp": false,
+        "width": "13",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fa9482e7becb36db",
+        "type": "ui_group",
+        "name": "prize",
+        "tab": "2490620c.7d8626",
+        "order": 6,
+        "disp": false,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3fd08ada7fc73322",
+        "type": "ui_group",
+        "name": "GO BACK",
+        "tab": "2490620c.7d8626",
+        "order": 7,
+        "disp": false,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f7496f2ee8cfd381",
+        "type": "ui_group",
+        "name": "weather",
+        "tab": "2490620c.7d8626",
+        "order": 1,
+        "disp": false,
+        "width": "33",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "660a73d2.fd360c",
+        "type": "json",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "9b8e89ae.6b0e9",
+                "554fd08bac27ac1b"
+            ]
+        ]
+    },
+    {
+        "id": "9b8e89ae.6b0e9",
+        "type": "function",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "func": "if(msg.payload.end_device_ids.device_id==\"eui-70b3d57ed0057a63\"){\n    return [null, msg]}\nif (msg.payload.end_device_ids.device_id ==\"eui-70b3d57ed0057a95\"){\n    return [msg, null]}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 300,
+        "wires": [
+            [
+                "a1841c24.47f258",
+                "96af77898bb8844f",
+                "42d5d82718cce310",
+                "e72cbf3a268c6f40"
+            ],
+            [
+                "3eed1f5b92ea4425"
+            ]
+        ]
+    },
+    {
+        "id": "b413e7fe.74bd9",
+        "type": "debug",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b4cd52c.d3b03b",
+        "type": "ui_text",
+        "z": "3a816ac4.7364ce",
+        "d": true,
+        "group": "b0ad025f.87be88",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "RSS from locik",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1060,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f5587bcb2fcef224",
+        "type": "exec",
+        "z": "3a816ac4.7364ce",
+        "command": "python /home/shelter/test.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 580,
+        "y": 60,
+        "wires": [
+            [
+                "660a73d2.fd360c"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "04df206f9367ffd4",
+        "type": "inject",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "1a323b83cfc70723"
+            ]
+        ]
+    },
+    {
+        "id": "66a91518c25b27ef",
+        "type": "ui_switch",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "label": "EMERGENCY",
+        "tooltip": "",
+        "group": "b0ad025f.87be88",
+        "order": 5,
+        "width": "10",
+        "height": "2",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "YES",
+        "onvalueType": "str",
+        "onicon": "fa-5x fa-heartbeat",
+        "oncolor": "red",
+        "offvalue": "NO",
+        "offvalueType": "str",
+        "officon": "fa-5x fa-heartbeat",
+        "offcolor": "white",
+        "animate": true,
+        "className": "",
+        "x": 1140,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a323b83cfc70723",
+        "type": "exec",
+        "z": "3a816ac4.7364ce",
+        "command": "pkill python",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 330,
+        "y": 60,
+        "wires": [
+            [
+                "f5587bcb2fcef224"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "0944cec0287bc78e",
+        "type": "comment",
+        "z": "3a816ac4.7364ce",
+        "name": "payload.end_device_ids.device_id: eui-70b3d57ed0057a63 - checkpoint",
+        "info": "",
+        "x": 290,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "071e9b4df45b3ee3",
+        "type": "comment",
+        "z": "3a816ac4.7364ce",
+        "name": "payload.end_device_ids.device_id: eui-70b3d57ed0057a5f - hand held",
+        "info": "",
+        "x": 290,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "a1841c24.47f258",
+        "type": "function",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "func": "msg.payload = msg.payload.uplink_message.frm_payload\nif (msg.payload == \"AQ==\") {\n    msg.payload = \"YES\"}\nelse\n    msg.payload = \"NO\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 220,
+        "wires": [
+            [
+                "66a91518c25b27ef"
+            ]
+        ]
+    },
+    {
+        "id": "3eed1f5b92ea4425",
+        "type": "function",
+        "z": "3a816ac4.7364ce",
+        "name": "function 1",
+        "func": "if (msg.payload.uplink_message.frm_payload ==\"ZGV2aWNlZGV0ZWN0\"){\n    msg.payload=\"YES\"\n}\nelse\n    msg.payload=\"NO\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 400,
+        "wires": [
+            [
+                "b413e7fe.74bd9",
+                "99a6fd5d60725335"
+            ]
+        ]
+    },
+    {
+        "id": "96af77898bb8844f",
+        "type": "function",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "func": "msg.payload = msg.payload.uplink_message.rx_metadata[0].rssi;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 260,
+        "wires": [
+            [
+                "b4cd52c.d3b03b",
+                "9122fdd06954a157",
+                "fa7a574b6c23fcc1"
+            ]
+        ]
+    },
+    {
+        "id": "554fd08bac27ac1b",
+        "type": "debug",
+        "z": "3a816ac4.7364ce",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "42d5d82718cce310",
+        "type": "function",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "func": "msg.payload = msg.payload.end_device_ids.device_id\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 300,
+        "wires": [
+            [
+                "df43ea6fcbb7562e",
+                "a32aa5531c359b80"
+            ]
+        ]
+    },
+    {
+        "id": "df43ea6fcbb7562e",
+        "type": "ui_text",
+        "z": "3a816ac4.7364ce",
+        "group": "b0ad025f.87be88",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Locik ID",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1140,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "9122fdd06954a157",
+        "type": "ui_gauge",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "group": "b0ad025f.87be88",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "RSS",
+        "label": "dBm",
+        "format": "{{value}}",
+        "min": "-200",
+        "max": "35",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#3acb52"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 1170,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a32aa5531c359b80",
+        "type": "ui_template",
+        "z": "3a816ac4.7364ce",
+        "group": "d9097475c3f953e0",
+        "name": "",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "format": "<img src=\"https://a4bee-nft-assets-dev.s3.eu-central-1.amazonaws.com/lot-white-vertical.png\"/>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1160,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "077ee7e78a6055b7",
+        "type": "ui_template",
+        "z": "3a816ac4.7364ce",
+        "group": "47c9df374ffba26d",
+        "name": "",
+        "order": 0,
+        "width": "10",
+        "height": "10",
+        "format": "<div id=\"testowy\" style=\"width: 100%\"><iframe width=\"100%\" height=\"500\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\"\n        marginwidth=\"0\"\n        src=\"https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=tauron%20aurna+(LOCIK)&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\"><a\n            href=\"https://www.maps.ie/distance-area-calculator.html\">measure acres/hectares on map</a></iframe></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 900,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e72cbf3a268c6f40",
+        "type": "function",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "func": "msg.payload = msg.payload.received_at\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 340,
+        "wires": [
+            [
+                "4a024c58bdb61164"
+            ]
+        ]
+    },
+    {
+        "id": "4a024c58bdb61164",
+        "type": "ui_text",
+        "z": "3a816ac4.7364ce",
+        "group": "b0ad025f.87be88",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Timestamp of last message",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1200,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fa7a574b6c23fcc1",
+        "type": "ui_chart",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "group": "5d288a7189f04af7",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "Signal level over time [dBm]",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#4763d4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1220,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99a6fd5d60725335",
+        "type": "ui_switch",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "label": "Checkpoint reached - prize is avaliable!",
+        "tooltip": "",
+        "group": "fa9482e7becb36db",
+        "order": 5,
+        "width": "9",
+        "height": "2",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "YES",
+        "onvalueType": "str",
+        "onicon": "fa-5x fa-gift",
+        "oncolor": "#4763d4",
+        "offvalue": "NO",
+        "offvalueType": "str",
+        "officon": "fa-5x fa-gift",
+        "offcolor": "white",
+        "animate": true,
+        "className": "",
+        "x": 1060,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a70474b7ee8c526",
+        "type": "inject",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "67326cf5fa562634",
+        "type": "debug",
+        "z": "3a816ac4.7364ce",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4d28ec2b84a09db5",
+        "type": "exec",
+        "z": "3a816ac4.7364ce",
+        "command": "ifconfig",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "67326cf5fa562634"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "16c05b1319399844",
+        "type": "inject",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "4d28ec2b84a09db5"
+            ]
+        ]
+    },
+    {
+        "id": "49d7fc943b8172ff",
+        "type": "ui_switch",
+        "z": "3a816ac4.7364ce",
+        "name": "",
+        "label": "Back to shelter - bad weather!",
+        "tooltip": "",
+        "group": "3fd08ada7fc73322",
+        "order": 5,
+        "width": "9",
+        "height": "2",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 1050,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64481083dd09802c",
+        "type": "ui_template",
+        "z": "3a816ac4.7364ce",
+        "group": "f7496f2ee8cfd381",
+        "name": "",
+        "order": 0,
+        "width": "33",
+        "height": "2",
+        "format": "<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/40d71n74d01/new-york/\" data-label_1=\"Krakow\"\n    data-label_2=\"Weather\" data-theme=\"original\" data-basecolor=\"#4763d4\" data-cloudfill=\"#4763d4\">Krakow Weather</a>\n<script>\n    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 980,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    }
+]
